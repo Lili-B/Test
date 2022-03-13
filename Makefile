@@ -18,6 +18,9 @@ all:	$(NAME)
 $(NAME):
 	gcc -o $(NAME) $(CFLAGS) $(SRC)
 
+test_run:
+	echo "test"
+
 clean:
 	rm -f $(OBJ)
 	touch test.gcno
