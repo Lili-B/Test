@@ -18,7 +18,7 @@ all:	$(NAME)
 $(NAME):
 	gcc -o $(NAME) $(CFLAGS) $(SRC)
 
-test_run:
+tests_run:
 	echo "test"
 
 clean:
